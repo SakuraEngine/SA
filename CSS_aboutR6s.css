@@ -1,0 +1,189 @@
+﻿*{
+    padding: 0px;
+    margin: 0px;
+}
+a{
+    text-decoration: none;
+}
+body{
+    /*--background-image: url("images/more/BG_MORE.jpg");--*/
+    background-image: linear-gradient(white,gray);
+    width: 1920px;
+    height: 965px;
+}
+/*-------背景音乐-------*/
+#BGM p{
+    background-image: url("images/wyy.ico");
+    font-size: 20px;
+    background-repeat: no-repeat;
+    background-size: 20px 20px;
+    padding-bottom: 5px;
+}
+#BGM{
+    font-family: "Berlin Sans FB";
+    color: white;
+    position: absolute;
+    top: 90%;
+}
+/*-------头部设置-------*/
+.header a{
+    display: inline-block;
+    float: left;
+    text-align: center;
+    line-height : 80px;
+}
+.header a:link{
+    display: inline-block;
+    margin-left: 30px;
+    margin-top: 30px;
+    width: 86px;
+    height: 86px;
+    background-image: url("images/header_r6s.jpg");
+    opacity: 0.8;
+    background-repeat: no-repeat;
+    border-radius: 50% 50% 50% 50%;
+}
+
+.header a:hover{
+    opacity: 1;
+    background-image:url("images/header_r6s_me.jpg");
+    border-radius: 50% 50% 50% 50%;
+}
+.mu{
+    display: inline-block;
+    float: left;
+    height: 30px;
+    padding-right: 10px;
+    line-height: 30px;
+    margin-top: 60px;
+    background: white;
+    opacity: 0.5;
+    color: grey;
+    border-style: solid;
+    border-width: 0px 5px 0px 0px;
+    border-left-color: white;
+    border-radius: 15px 0px 0px 15px;
+}
+.mu1{
+    display: inline-block;
+    float: left;
+    height: 30px;
+    line-height: 30px;
+    margin-top: 60px;
+    background: white;
+    opacity: 0.5;
+    color: grey;
+    padding-right: 10px;
+    border-radius: 0px 15px 15px 0px;
+}
+#r6s{
+    color: darkorange;
+    padding-left: 10px;
+}
+/*--主图--*/
+body .all{
+    width: 820px;
+    position: relative;
+    top:120px;
+    left: 530px;
+}
+.qjf{
+    display: inline-block;
+    position: relative;
+    top: -30px;
+}
+img{
+    border-radius: 5px 5px 5px 5px;
+    border: 8px solid rgba(0,0,0,0.3);
+}
+.gy img{
+    border: 8px solid rgba(0,0,0,0.8);
+}
+.all .tt{
+    position: relative;
+    left:-60px;
+    display: inline-block;
+    text-align: center;
+    background-color: rgba(0,0,0,0.3);
+    width: 200px;
+    height: 50px;
+    font-size: 30px;
+    border-radius: 10px 10px 0px 0px;
+    color: white;
+    top: 36px;
+}
+.gy {
+    color: white;
+    display: inline-block;
+    position:absolute;
+    font-size: 15px;
+    margin-left: 10px;
+    line-height:50px;
+    top: 602px;
+}
+#fbi{
+    left:130px
+}
+#gign{
+    left: 260px;
+}
+#gsg9{
+    left: 390px;
+}
+#spetsnaz{
+    left: 520px;
+}
+#other{
+    left: 650px;
+}
+.gy a{
+    color: white;
+    display: inline-block;
+    position:relative;
+    background-color: rgba(0,0,0,0.3);
+    text-align: center;
+    font-size: 15px;
+    width: 120px;
+    height: 50px;
+    border-radius: 0px 0px 10px 10px;
+}
+.all a:hover{
+    background-color: rgba(0,0,0,0.9);
+}
+#sas a:hover #break{
+    display: inline-block;
+    position: absolute;
+    top: -515px;
+    right: -685px;
+}
+#fbi a:hover #break{
+    display: inline-block;
+    position: absolute;
+    top: -515px;
+    right: -555px;
+}
+#gign a:hover #break{
+    display: inline-block;
+    position: absolute;
+    top: -515px;
+    right: -425px;
+}
+#gsg9 a:hover #break{
+    display: inline-block;
+    position: absolute;
+    top: -515px;
+    right: -295px;
+}
+#spetsnaz a:hover #break{
+    display: inline-block;
+    position: absolute;
+    top: -515px;
+    right: -165px;
+}
+#break{
+    display: none;
+    top: -700px;
+}
+
+
+

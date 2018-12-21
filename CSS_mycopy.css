@@ -1,0 +1,152 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-image: url("images/more/2.jpg");
+    background-size:cover;
+    width: 1920px;
+
+}
+/*-------头部设置-------*/
+.header a{
+    display: inline-block;
+    float: left;
+    text-align: center;
+    line-height : 80px;
+}
+.header a:link{
+    display: inline-block;
+    margin-left: 30px;
+    margin-top: 30px;
+    width: 86px;
+    height: 86px;
+    background-image: url("images/more/1.jpg");
+    opacity: 0.8;
+    background-repeat: no-repeat;
+    border-radius: 50% 50% 50% 50%;
+}
+
+.header a:hover{
+    opacity: 1;
+    background-image: url("images/more/1.jpg");
+    border-radius: 50% 50% 50% 50%;
+}
+.mu{
+    display: inline-block;
+    float: left;
+    height: 30px;
+    padding-right: 10px;
+    line-height: 30px;
+    margin-top: 60px;
+    background: white;
+    opacity: 0.5;
+    color: grey;
+    border-style: solid;
+    border-width: 0px 5px 0px 0px;
+    border-left-color: white;
+    border-radius: 15px 0px 0px 15px;
+}
+.mu1{
+    display: inline-block;
+    float: left;
+    height: 30px;
+    line-height: 30px;
+    margin-top: 60px;
+    background: white;
+    opacity: 0.5;
+    color: grey;
+    padding-right: 10px;
+    border-radius: 0px 15px 15px 0px;
+}
+#r6s{
+    color: darkorange;
+    padding-left: 10px;
+}
+/*-------背景音乐-------*/
+#BGM p{
+    background-image: url("images/wyy.ico");
+    font-size: 20px;
+    background-repeat: no-repeat;
+    background-size: 20px 20px;
+    padding-bottom: 5px;
+    color: dimgray;
+}
+#BGM{
+    display: inline-block;
+
+    font-family: "Berlin Sans FB";
+    color: white;
+    position: absolute;
+    top: 90%;
+    left: 0px;
+
+}
+
+/*--windows--*/
+.windows{
+    width: 800px;
+    height: 600px;
+    display: inline-block;
+    float: right;
+    margin-top: 250px;
+    margin-right: 50px;
+    background-color: rgba(255,255,255,0.6);
+    border-radius: 5px 5px 5px 5px;
+
+}
+.windows img{
+    border-radius: 5px 5px 5px 5px;
+    margin-left: 20px;
+    margin-top: 20px;
+    display: inline-block;
+    float: left;
+    opacity: 0.8;
+}
+.windows a:hover img{
+    opacity: 1;
+}
+.img2{
+    display: none;
+}
+.windows a:active .img1{
+    display: none;
+}
+.windows a:active .img2{
+    display: inline;
+}
+.windows .kit{
+    display: inline-block;
+    position: relative;
+    top: 106px;
+    right: 325px;
+}
+.windows .snum{
+    display: inline-block;
+    position: relative;
+    top: 70px;
+    right: 315px;
+}
+.id {
+    margin-top: 10px;
+    display: inline-block;
+    float: left;
+    font-size: 40px;
+    color:black;
+    text-shadow: 10px 10px 10px white;
+
+}
+.windows .like{
+    margin-top: 30px;
+    margin-left: 30px;
+    display: inline-block;
+    float: left;
+    width: 700px;
+    height: 100px;
+    border: black solid 2px;
+    border-radius: 3px 3px 3px;
+}
+strong{
+    color: grey;
+    font-size: 30px;
+}

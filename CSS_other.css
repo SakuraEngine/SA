@@ -1,0 +1,267 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+a{
+    text-decoration: none;
+}
+body{
+    /*--background-image: url("images/more/BG_MORE.jpg");--*/
+    background-image: linear-gradient(30deg,white,black);
+    width: 1920px;
+    height: 965px;
+}
+/*-------头部设置-------*/
+.header a{
+    display: inline-block;
+    float: left;
+    text-align: center;
+    line-height : 80px;
+}
+.header a:link{
+    display: inline-block;
+    margin-left: 30px;
+    margin-top: 30px;
+    width: 86px;
+    height: 86px;
+    background-image: url("images/header_r6s.jpg");
+    opacity: 0.8;
+    background-repeat: no-repeat;
+    border-radius: 50% 50% 50% 50%;
+}
+
+.header a:hover{
+    opacity: 1;
+    background-image:url("images/header_r6s_me.jpg");
+    border-radius: 50% 50% 50% 50%;
+}
+.mu{
+    display: inline-block;
+    float: left;
+    height: 30px;
+    padding-right: 10px;
+    line-height: 30px;
+    margin-top: 60px;
+    background: white;
+    opacity: 0.5;
+    color: grey;
+    border-style: solid;
+    border-width: 0px 5px 0px 0px;
+    border-left-color: white;
+    border-radius: 15px 0px 0px 15px;
+}
+.mu1{
+    display: inline-block;
+    float: left;
+    height: 30px;
+    line-height: 30px;
+    margin-top: 60px;
+    background: white;
+    opacity: 0.5;
+    color: grey;
+    padding-right: 10px;
+    border-radius: 0px 15px 15px 0px;
+}
+#r6s{
+    color: darkorange;
+    padding-left: 10px;
+}
+
+.all{
+    position: absolute;
+    top: 150px;
+    left: 65px;
+    bottom: 10px;
+    text-align: center;
+    width: 1800px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.a{
+    display: inline-block;
+    float: left;
+    position: relative;
+    left: 30%;
+    margin-right: 50px;
+}
+.b{
+    display: inline-block;
+}
+.a a{
+    display: inline-block;
+    color: black;
+    line-height: 80px;
+    background-color: rgba(255,255,255,0.3);
+    border-radius: 20px 20px 0px 0px ;
+    width: 250px;
+    height: 80px;
+    text-align: center;
+
+}
+.b a{
+    display: inline-block;
+    line-height: 80px;
+    color: black;
+    background-color: rgba(255,255,255,0.3);
+    border-radius: 20px 20px 0px 0px ;
+    width: 250px;
+    height: 80px;
+    text-align: center;
+}
+/*----按钮---*/
+.a a:hover{
+    background-color: rgba(255,255,255,0.8);
+    font-size: 30px;
+    height: 80px;
+}
+
+.b a:hover{
+    background-color: rgba(255,255,255,0.8);
+    font-size: 30px;
+    height: 80px;
+}
+.a a:hover strong{
+    display: none;
+    font-size: 30px;
+    height: 80px;
+}
+.b a:hover strong{
+    display: none;
+    font-size: 30px;
+    height: 80px;
+}
+/*----窗口---*/
+.windows{
+    width: 1500px;
+    position: absolute;
+    top: 90px;
+    left: 150px;
+    height: 600px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgba(255,255,255,0.3);
+    border-radius: 30px 30px 30px 30px;
+}
+.a{
+    text-align: center;
+}
+.a .windows{
+    top:80px;
+    left: -390px;
+}
+.a .windows{
+    display: none;
+}
+
+.b .windows{
+    display: none;
+
+}
+.a a:hover .windows{
+    display: block;
+    position: absolute;
+    background-color: rgba(255,255,255,0.7);
+
+ }
+.b a:hover .windows{
+    display: block;
+    position: absolute;
+    background-color: rgba(255,255,255,0.7);
+
+}
+
+.p1{
+    background-image: url("images/p/buck.png");
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 300px;
+    border: cornflowerblue solid 2px;
+    float: left;
+    margin-left: 10px;
+}
+.p2{
+    background-image: url("images/p/bb.png");
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 300px;
+    border:orange solid 2px;
+    float: left;
+    margin-left: 10px;
+}
+.p3{
+    background-image: url("images/p/cp.png");
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 300px;
+    border:greenyellow solid 2px;
+    float: left;
+    margin-left: 10px;
+}
+.p4{
+    background-image: url("images/p/hh.png");
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 300px;
+    border:darkred solid 2px;
+    float: left;
+    margin-left: 10px;
+}
+
+.k1{
+    background-image: url("images/p/fr.png");
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 300px;
+    border:cornflowerblue solid 2px;
+    float: left;
+    margin-left: 10px;
+}
+.k2{
+    background-image: url("images/p/va.png");
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 300px;
+    border:orange solid 2px;
+    float: left;
+    margin-left: 10px;
+}
+
+.k3{
+    background-image: url("images/p/caa.png");
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 300px;
+    border:greenyellow solid 2px;
+    float: left;
+    margin-left: 10px;
+}
+
+.k4{
+    background-image: url("images/p/echo.png");
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 300px;
+    border:darkred solid 2px;
+    float: left;
+    margin-left: 10px;
+}
+
+

@@ -1,0 +1,180 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-image: url("images/BG.jpg");
+    width: 1920px;
+
+}
+
+/*-------背景音乐-------*/
+#BGM p{
+    background-image: url("images/wyy.ico");
+    font-size: 20px;
+    background-repeat: no-repeat;
+    background-size: 20px 20px;
+    padding-bottom: 5px;
+}
+#BGM{
+    font-family: "Berlin Sans FB";
+    color: white;
+    position: absolute;
+    top: 90%;
+}
+
+/*-------主按钮-------*/
+div a{
+    font-size: 30px;
+    text-decoration: none;
+    font-family: 微软雅黑;
+    color: white;
+
+}
+.about a:link{
+    margin-top: 50px;
+    display: inline-block;
+    text-align: center;
+    width: 230px;
+    height:80px;
+    background: dimgray;
+    border-radius: 12px;
+    line-height : 80px;
+    position: absolute;
+    left: 600px;
+    opacity: 0.8;
+}
+.about a:hover{
+    background-image: url("images/Q1.png");
+    opacity: 1;
+    width: 230px;
+    height: 80px;
+    font-size: 15px;
+    color:white;
+
+}
+.ubisoft a:link{
+    margin-top: 50px;
+    display: inline-block;
+    text-align: center;
+    width: 230px;
+    height:80px;
+    background: dimgray;
+    border-radius: 12px;
+    line-height : 80px;
+    position: absolute;
+    left: 1060px;
+    opacity: 0.8;
+
+}
+.ubisoft a:hover{
+
+    background: white;
+    background-image: url("images/Q2.png");
+    opacity: 1;
+    text-align: right;
+    padding-right:10px ;
+    width: 230px;
+    height: 80px;
+    font-size: 25px;
+    color:black;
+    background-origin: content-box;
+    background-repeat: no-repeat;
+    background-size: 60px 60px;
+    background-position: 10px 10px;
+}
+#wow1{
+    display: none;
+}
+.ubisoft a:hover #wow1{
+    display: inline;
+}
+.ubisoft a:hover #break1{
+    display: none;
+}
+
+
+
+
+/*-------头部设置-------*/
+.header a{
+    display: inline-block;
+    float: left;
+    text-align: center;
+    line-height : 80px;
+}
+.header a:link{
+    display: inline-block;
+    margin-left: 30px;
+    margin-top: 30px;
+    width: 86px;
+    height: 86px;
+    background-image: url("images/header_r6s.jpg");
+    opacity: 0.8;
+    background-repeat: no-repeat;
+    border-radius: 50% 50% 50% 50%;
+}
+
+.header a:hover{
+    opacity: 1;
+    background-image:url("images/header_r6s_me.jpg");
+    border-radius: 50% 50% 50% 50%;
+}
+.mu{
+    display: inline-block;
+    float: left;
+    height: 30px;
+    padding-right: 10px;
+    line-height: 30px;
+    margin-top: 60px;
+    background: white;
+    opacity: 0.5;
+    color: grey;
+    border-style: solid;
+    border-width: 0px 5px 0px 0px;
+    border-left-color: white;
+    border-radius: 15px 0px 0px 15px;
+}
+.mu1{
+    display: inline-block;
+    float: left;
+    height: 30px;
+    line-height: 30px;
+    margin-top: 60px;
+    background: white;
+    opacity: 0.5;
+    color: grey;
+    padding-right: 10px;
+    border-radius: 0px 15px 15px 0px;
+}
+#r6s{
+    color: darkorange;
+    padding-left: 10px;
+}
+/*大标题*/
+#one1{
+    display: inline-block;
+    color: white;
+    margin-top: 40px;
+    margin-left: 10px;
+    font-size: 40px;
+    position: relative;
+
+}
+#one2{
+    color: white;
+    text-align: center;
+    font-size: 180px;
+    line-height: 180px;
+    text-shadow: 10px 10px 10px black;
+    margin: 0 auto;
+}
+#one3{
+    display: inline-block;
+    color: white;
+    margin: 0 auto;
+    font-size: 100px;
+    text-shadow: 10px 10px 10px black;
+    position: relative;
+    left: 50%;
+}
